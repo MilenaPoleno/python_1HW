@@ -3,9 +3,9 @@
 n = int(input("Введите целое положительное число: "))
 all_numbers_of_n = []
 while n > 0:
-  number = n % 10
-  all_numbers_of_n.append(number)
-  n = n // 10
+    number = n % 10
+    all_numbers_of_n.append(number)
+    n = n // 10
 
 max_number = max(all_numbers_of_n)
 print(max_number)
