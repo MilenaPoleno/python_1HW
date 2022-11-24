@@ -7,11 +7,11 @@ income = float(input("Введите сумму выручки: "))
 cost = float(input("Введите сумму издержек: "))
 
 if income > cost:
-  print("Вы работаете в плюс!")
-  profit = income / cost
-  print(f"Ренатбельность составляет {profit}")
-  workers = int(input("Введите количество сотрудников: "))
-  profit_workers = (income - cost) / workers
-  print(f"В расчете на одного сотрудника прибыль составляет {profit_workers}")
+    print("Вы работаете в плюс!")
+    profit = income / cost
+    print(f"Ренатбельность составляет {profit}")
+    workers = int(input("Введите количество сотрудников: "))
+    profit_workers = (income - cost) / workers
+    print(f"В расчете на одного сотрудника прибыль составляет {profit_workers}")
 else:
-  print("Ваша фирма нерентабельна!")
+    print("Ваша фирма нерентабельна!")
